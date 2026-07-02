@@ -68,7 +68,6 @@
       right: 0;
       z-index: 100;
       background: var(--cream);
-      border-bottom: 2px solid var(--brand);
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -1143,15 +1142,18 @@
     }
 
     .footer-brand p {
-      color: rgba(255, 255, 255, .35);
+      color: white;
       font-size: .82rem;
       line-height: 1.7;
       margin-top: 1rem;
       max-width: 260px;
     }
+    .footer-brand img{
+      filter: brightness(0) invert(1);
+    }
 
     .footer-col h4 {
-      color: rgba(255, 255, 255, .45);
+      color: white;
       font-size: .72rem;
       letter-spacing: .12em;
       text-transform: uppercase;
@@ -1167,7 +1169,7 @@
     }
 
     .footer-col ul li a {
-      color: rgba(255, 255, 255, .3);
+      color: white;
       font-size: .83rem;
       text-decoration: none;
       transition: color .2s;
@@ -1186,12 +1188,12 @@
     }
 
     .footer-bottom p {
-      color: rgba(255, 255, 255, .2);
+      color: white;
       font-size: .78rem;
     }
 
     .footer-bottom a {
-      color: rgba(255, 255, 255, .3);
+      color: white;
       text-decoration: none;
       font-size: .78rem;
     }
@@ -1765,17 +1767,6 @@
       <a href="#contact" class="inline-cta-btn">Start Your Project →</a>
     </div>
   </div>
-
-  <!-- ── CTA BANNER ── -->
-  <section class="cta-section">
-    <h2>Stop Guessing.<br><em>Start Scaling.</em></h2>
-    <p>Get a free Amazon PPC audit — we'll find your wasted spend, map your growth opportunities, and show you exactly
-      how we'd improve your account.</p>
-    <div class="cta-actions">
-      <a href="#contact" class="btn-cta-primary">Get My Free PPC Audit →</a>
-      <a href="#results" class="btn-cta-outline">See Case Studies ↓</a>
-    </div>
-  </section>
 
   <!-- ── BOTTOM FORM ── -->
   <section class="bottom-form-section" id="contact">
